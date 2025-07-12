@@ -1,19 +1,23 @@
-.merriweather-normal {
-    font-family: "Merriweather", serif;
+.inter-normal {
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-    margin: 0px;
-    text-align: center;
 }
-
-.cls-padding {
-    padding: 20px 100px;
+*{
+    box-sizing: border-box;
 }
-
+body{
+    background-color:#f9f9f9;
+    
+}
 .banner {
+    padding-left: 90px;
+    padding-right: 70px;
+    padding-top: 40px;
+}
+
+.banner-container {
     background-image: url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
     height: 600px;
@@ -23,11 +27,10 @@
     justify-content: center;
     text-align: center;
     display: cover;
+    border-radius: 16px;
 }
 
 .banner-text {
-    padding: 20px 30px;
-    border-radius: 8px;
     text-align: center;
     width: 632px;
     height: 246px;
@@ -37,24 +40,47 @@
 .banner h1,
 h2 {
     font-size: 36px;
-    margin-bottom: 10px;
+    text-align: center;
 }
 
-.first-color {
-    color: #FFFFFF;
+.discounts {
+    text-align: center;
+}
+
+.discounts-color {
+    color: #FF0000;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+.Holidays-color {
+    color: #FF0000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
     font-weight: bold;
 }
 
-.second-color {
-    color: #FF0000;
-
+.discounts p {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    color: #111;
 }
 
-.second-color-bg {
-    background-color: #FF0000;
+.discounts-img {
+    height: 300;
+    width: 500;
 }
 
-.second-section {
+.midnight {
+    padding-left: 90px;
+    padding-right: 140px;
+    padding-top: 40px;
+}
+
+.midnight-container {
     background-image: url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,10 +88,30 @@ h2 {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: start;
+    justify-content: left;
+    text-align: left;
     position: relative;
     border-radius: 16px;
+    padding-left: 50px;
+}
+
+.midnight-container h2,
+p {
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    color: #f9f9f9;
+
+}
+
+.midnight-container h2 {
+    font-size: 60px;
+}
+
+.midnight a {
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: x-large;
 }
 
 .overlay-img {
@@ -76,99 +122,124 @@ h2 {
     height: 450px;
 }
 
-.third-section {
+.Place {
     border: 1px solid white;
     background-color: rgba(207, 133, 145, 0.3);
-    /* light pink with 30% opacity */
-    z-index: 1;
     padding: 20px;
     margin: 100px;
     border-radius: 16px;
+    text-align: center;
 }
 
-.forth-part {
+
+.Offer-container-div {
+    text-align: left;
+}
+
+.Offer-container-div h3 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.Offer-container {
     display: flex;
     text-decoration: none;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     justify-content: center;
     text-align: center;
     height: 463px;
     width: 1320px;
-    gap: 20px;
+    gap: 70px;
 
+}
+
+.Offer-container p {
+    color: #555;
 }
 
 .round-img {
     border: 7px solid #FF0000;
     border-radius: 50%;
     padding: 10px;
-    height: 463px;
-    width: 463px;
+    height: 300px;
+    width: 300px;
 
 
 }
 
-.forth-part-div {
-    height: 255px;
-    width: 393px;
-}
-
-.containar {
-    position: relative;
-    width: 100%;
-    height: 600px;
-}
-
-.base-img {
-    width: 1320;
-    height: 229;
-    border-radius: 16px;
-}
-
-.Overlap-img {
-    position: absolute;
-    bottom: 60%;
-    left: 200px;
-    width: 674.82px;
-    height: 577px;
-
-}
-
-.five-part {
-    width: 1320px;
-    height: 662px;
-}
-
-.discount {
-    display: flex;
-    justify-content: center;
-}
-
-.Right {
-    position: absolute;
-    right: 200px;
-    bottom: 100%;
-
-}
-
-.content {
-    text-align: left;
-    gap: none;
-}
-
-.portfolio {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 4rem 2rem;
+.functional-container p {
+    color: #111;
     text-align: center;
+    margin-top: 0;
 }
 
-.portfolio h2 {
+.functional-container h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.holiday {
+    color: #FF0000;
+}
+
+.functional {
+    text-align: center;
+    color: #111;
+    margin-top: 0;
+}
+
+.box {
+    position: relative;
+    border-radius: 30px;
+    padding-bottom: 0px;
+    padding-top: 0;
+    margin: 0;
+}
+
+.magic-box {
+    height: 300px;
+    width: 400px;
+    top: -150px;
+    left: 200px;
+    z-index: 1;
+}
+
+.reg {
+    top: 270px;
+    width: 400;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.discnt{
+    height: 180px;
+    width: 250px;
+    left: 800px;
+    top: -450px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.grid{
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.grid h2 {
     font-size: 3rem;
     line-height: 1.2;
     font-weight: 800;
-    margin-bottom: 1.2rem;
+    text-align: left;
+    
+}
+.grid h3{
+    color: #FF0000;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .port {
@@ -197,10 +268,9 @@ h2 {
     object-fit: cover;
 }
 
-.six {
+.newsletter{
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
     font-family: 'Segoe UI', sans-serif;
     display: flex;
     align-items: center;
@@ -262,35 +332,39 @@ button {
 }
 
 button:hover {
-    background-color: #d62839;
+    background-color:aqua;
 }
+
 .footer {
-  background-color: #111;
-  color: #fff;
-  padding: 2.5rem 1.5rem;
-  font-family: 'Segoe UI', sans-serif;
+    background-color: #111;
+    color: #fff;
+    padding: 2.5rem 1.5rem;
+    font-family: 'Segoe UI', sans-serif;
 }
-.footer-containar{
+
+.footer-containar {
     display: flex;
     justify-content: space-around;
 }
-footer a{
+
+footer a {
     text-decoration: none;
-    color:white
+    color: white
 }
-.social-media{
-    height: 42;
-    width: 22;
+
+.social-media {
+    text-align: center;
 }
+
 .footer-base {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-top: 1rem;
-  font-size: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    font-size: 0.85rem;
 }
 
 .unsubscribe {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
