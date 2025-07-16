@@ -173,7 +173,8 @@ p {
 .functional-container p {
     color: #111;
     text-align: center;
-    margin-top: 0;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .functional-container h1 {
@@ -381,28 +382,19 @@ footer a {
     .banner-container {
         background-image: url('../images/Banner\ Image.png');
         max-height: 300px;
-        max-width: 320px;
+        max-width: 570px;
 
     }
 
     .midnight-container {
         height: 100%;
-        width: calc(100% - 80px);
-    }
-
-    .discounts {
-        text-align: left;
-        padding: 20px;
-    }
-
-    .discounts p {
-        text-align: left;
-        font-size: 30px;
+        width: 100%
     }
 
     .discounts-img {
         height: 100%;
         width: calc(100% - 80px);
+        margin-bottom: 30px;
     }
 
     .midnight {
@@ -411,29 +403,23 @@ footer a {
 
     .midnight-container h2 {
         font-size: 30px;
+        text-align: left;
     }
 
     .overlay-img {
-        display: none;
+        width: 100px;
+        height: 100px;
     }
 
     .Place {
-        margin-left: 5px;
-        margin-top: 5px;
-        margin-right: 80px;
+        margin: 10px;
+        margin-bottom: 30px;
 
     }
 
     .offer {
         margin-left: 20px;
     }
-
-    .Offer-container-div {
-        text-align: left;
-        margin-right: 150px;
-        padding: 10px;
-    }
-
 
     .Offer-container {
         flex-direction: column;
@@ -443,27 +429,19 @@ footer a {
 
 
     .round-img {
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
         margin-right: 100px;
     }
 
-    .Offer-container p {
-        margin-right: 20px;
-    }
-
     .functional-container p {
-        text-align: left;
-        margin-right: 50px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
-    .functional-container h1 {
-        font-size: 60px;
-        margin-top: 0;
-    }
 
     .functional {
-        text-align: left;
         margin-right: 30px;
         padding: 10px;
     }
@@ -482,13 +460,16 @@ footer a {
 
     .gallery {
         display: grid;
-        grid-template-columns: repeat(1, 310px);
+        grid-template-columns: repeat(2,230px);
+        margin-left: 10px;
 
     }
 
     .newsletter,
     .footer {
-        margin-right: 80px;
+        width: 100%;
+        height: 80%;
+        margin: 10px;
     }
 
     .footer-containar,
