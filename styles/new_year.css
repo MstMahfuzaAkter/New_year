@@ -4,13 +4,16 @@
     font-weight: 400;
     font-style: normal;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-body{
-    background-color:#f9f9f9;
-    
+
+body {
+    background-color: #f9f9f9;
+
 }
+
 .banner {
     padding-left: 90px;
     padding-right: 70px;
@@ -126,7 +129,8 @@ p {
     border: 1px solid white;
     background-color: rgba(207, 133, 145, 0.3);
     padding: 20px;
-    margin: 100px;
+    margin: 80px;
+    margin-right: 150px;
     border-radius: 16px;
     text-align: center;
 }
@@ -164,8 +168,6 @@ p {
     padding: 10px;
     height: 300px;
     width: 300px;
-
-
 }
 
 .functional-container p {
@@ -213,7 +215,8 @@ p {
     padding-bottom: 0;
     padding-top: 0;
 }
-.discnt{
+
+.discnt {
     height: 180px;
     width: 250px;
     left: 800px;
@@ -222,11 +225,11 @@ p {
     padding-top: 0;
 }
 
-.grid{
+.grid {
     text-align: left;
     padding-left: 100px;
     padding-right: 100px;
-    
+
 }
 
 .grid h2 {
@@ -234,9 +237,10 @@ p {
     line-height: 1.2;
     font-weight: 800;
     text-align: left;
-    
+
 }
-.grid h3{
+
+.grid h3 {
     color: #FF0000;
     padding-top: 0;
     padding-bottom: 0;
@@ -268,7 +272,7 @@ p {
     object-fit: cover;
 }
 
-.newsletter{
+.newsletter {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
@@ -282,7 +286,7 @@ p {
     background: white;
     padding: 2.5rem;
     max-width: 500px;
-    width: 90%;
+
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -332,7 +336,7 @@ button {
 }
 
 button:hover {
-    background-color:aqua;
+    background-color: aqua;
 }
 
 .footer {
@@ -367,4 +371,132 @@ footer a {
 .unsubscribe {
     color: white;
     text-decoration: none;
+}
+
+@media screen and (max-width:576px) {
+    .banner {
+        padding: 0px;
+    }
+
+    .banner-container {
+        background-image: url('../images/Banner\ Image.png');
+        max-height: 300px;
+        max-width: 320px;
+
+    }
+
+    .midnight-container {
+        height: 100%;
+        width: calc(100% - 80px);
+    }
+
+    .discounts {
+        text-align: left;
+        padding: 20px;
+    }
+
+    .discounts p {
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .discounts-img {
+        height: 100%;
+        width: calc(100% - 80px);
+    }
+
+    .midnight {
+        padding: 5px;
+    }
+
+    .midnight-container h2 {
+        font-size: 30px;
+    }
+
+    .overlay-img {
+        display: none;
+    }
+
+    .Place {
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-right: 80px;
+
+    }
+
+    .offer {
+        margin-left: 20px;
+    }
+
+    .Offer-container-div {
+        text-align: left;
+        margin-right: 150px;
+        padding: 10px;
+    }
+
+
+    .Offer-container {
+        flex-direction: column;
+        height: 100%;
+        width: 100%
+    }
+
+
+    .round-img {
+        height: 200px;
+        width: 200px;
+        margin-right: 100px;
+    }
+
+    .Offer-container p {
+        margin-right: 20px;
+    }
+
+    .functional-container p {
+        text-align: left;
+        margin-right: 50px;
+    }
+
+    .functional-container h1 {
+        font-size: 60px;
+        margin-top: 0;
+    }
+
+    .functional {
+        text-align: left;
+        margin-right: 30px;
+        padding: 10px;
+    }
+
+    .box-container {
+        display: none;
+    }
+
+    .grid {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 100px;
+        padding: 5px;
+
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 310px);
+
+    }
+
+    .newsletter,
+    .footer {
+        margin-right: 80px;
+    }
+
+    .footer-containar,
+    .footer-base {
+        flex-direction: column;
+    }
+
+    .social-media {
+        text-align: left;
+    }
 }
